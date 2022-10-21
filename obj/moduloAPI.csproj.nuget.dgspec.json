@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JJ\\jean\\jean\\workspace\\dio\\dotnet\\moduloAPI\\moduloAPI.csproj": {}
+    "C:\\Users\\JJ\\Jean\\jEAN\\workspace\\DIO\\dotnet\\moduloAPI\\moduloAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JJ\\jean\\jean\\workspace\\dio\\dotnet\\moduloAPI\\moduloAPI.csproj": {
+    "C:\\Users\\JJ\\Jean\\jEAN\\workspace\\DIO\\dotnet\\moduloAPI\\moduloAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JJ\\jean\\jean\\workspace\\dio\\dotnet\\moduloAPI\\moduloAPI.csproj",
+        "projectUniqueName": "C:\\Users\\JJ\\Jean\\jEAN\\workspace\\DIO\\dotnet\\moduloAPI\\moduloAPI.csproj",
         "projectName": "moduloAPI",
-        "projectPath": "C:\\Users\\JJ\\jean\\jean\\workspace\\dio\\dotnet\\moduloAPI\\moduloAPI.csproj",
+        "projectPath": "C:\\Users\\JJ\\Jean\\jEAN\\workspace\\DIO\\dotnet\\moduloAPI\\moduloAPI.csproj",
         "packagesPath": "C:\\Users\\JJ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JJ\\jean\\jean\\workspace\\dio\\dotnet\\moduloAPI\\obj\\",
+        "outputPath": "C:\\Users\\JJ\\Jean\\jEAN\\workspace\\DIO\\dotnet\\moduloAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
